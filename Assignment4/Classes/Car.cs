@@ -12,7 +12,7 @@ namespace Assignment4.Classes
         public override double CalculateFuelConsumption(double distance)
         {
             double CFConsumption = base.CalculateFuelConsumption(distance);
-            return CFConsumption * 0.1;
+            return CFConsumption * 1.1;
         }
 
         public Car(string brand) : base(brand) { }
